@@ -1,0 +1,170 @@
+body{
+   
+    background-color: rgb(29, 27, 27);
+}
+.container h1{
+    margin: 20px;
+    color: white;
+    text-shadow:0px 0px 20px white;
+}
+.container ul{
+    background-color: rgb(95, 105, 109); /* Set background color for the entire list */
+      padding: 10px; /* Adds space around the list */
+      border-radius: 15px; /* Rounds the corners of the list */
+      list-style-type: none; /* Removes bullet points */
+      margin: 0; /* Removes margin around the list */
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      display: flex;
+      gap: 50px;
+      justify-content: center;
+      box-shadow: 0px 0px 20px white;
+    
+    
+}
+.container ul li{
+    margin: 5px 0; /* Adds space between list items */
+      padding: 10px; /* Adds padding inside the list item */
+      transition: all 0.3s ease; /* Smooth transition for all properties */
+      border-radius: 10px; /* Rounds the corners of each list item */
+      font-size: x-large;
+      
+}
+.container li a {
+    text-decoration: none; /* Removes underline from the link */
+    color: black; /* Link text color */
+    padding: 5px;
+    display: block; /* Makes the link take the full space of the list item */
+    transition: color 0.3s ease; /* Smooth transition for text color */
+  }
+.container li:hover {
+    background-color: rgb(250, 206, 125); /* Change background color of list item */
+    padding: 15px; /* Increase padding (grows the box) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow to the list item */
+    transform: scale(1.05); /* Slightly enlarges the list item on hover */
+  }
+.container a:hover {
+    color: #ff6347; /* Change the text color of the link when hovered */
+    cursor: pointer; /* Change the cursor to pointer on hover */
+  }
+.container h2{
+    color: white;
+    text-shadow: 0px 0px 20px white;
+    
+   
+  }
+  
+  #home h2{
+      color: white;
+      text-shadow: 0px 0px 20px white;
+      padding:15px;
+      
+  }
+  #home p{
+      color: white;
+      margin: 15px;
+      padding: 15px;
+      text-align: center;
+      text-shadow: 0px 0px 20px #ff6347;
+      font-size: larger
+  }
+  .btn {
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px;
+    
+    
+  }
+  .btn a{
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: gray;
+    border-radius: 50px;
+    text-shadow:0px 0px 20px #ffffff;
+    box-shadow: 0px 0px 20px white;
+    transition: all 0.3s ease;
+  }
+  .btn a:hover{
+    background-color: rgb(87, 87, 87);
+    border-color: #ffffff;
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.4);
+    transform: translateY(-5px);
+  }
+  #historical-instruments h2{
+    color: #ffffff;
+    margin: 0px;
+    padding: 10px;
+    text-shadow: 0px 0px 20px rgb(163, 158, 158);
+  }
+  #historical-instruments h3{
+    color: white;
+    text-shadow: 0px 0px 20px#ffffff;
+
+  }
+  #historical-instruments img{
+    box-shadow: 0px 0px 20px gray;
+    margin: 20px;
+  }
+  #historical-instruments p{
+    color: white;
+    text-shadow: 0px 0px 20px#ff6347;
+  }
+  #historical-instruments a{
+    text-align: center;
+  }
+  .link{
+    margin: 10px;
+    padding: 15px;
+  }
+  .link a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: gray;
+    border-radius: 50px;
+    text-shadow:0px 0px 20px #ffffff;
+    box-shadow: 0px 0px 20px white;
+    transition: all 0.3s ease;
+  }
+  .link a:hover{
+    background-color: rgb(87, 87, 87);
+    border-color: #ffffff;
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.4);
+    transform: translateY(-5px);
+  }
+  #artists{
+    color: #ffffff;
+    text-shadow: 0px 0px 20px#ff6347;
+  }
+  #artists p{
+    margin: 20px;
+    padding: 10px;
+  }
+  .contact1{
+    color: #ffffff;
+    margin: 20px;
+    padding: 10px;
+    text-shadow: 0px 0px 20px#ff6347;
+  }
+  .email{
+    color: #ffffff;
+    text-shadow: 0px 0px 20px #ffffff;
+  }
+  .Phone{
+    color: #ffffff;
+    margin: 30px;
+    text-shadow: 0px 0px 20px#ff6347;
+  }
+  .footer{
+    color: #ffffff;
+    text-shadow: 0px 0px 20px #ff6347;
+    margin: 30px;
+  }
+
+ 
+  
+ 

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" contact="width=device-widthi, initial-scale=1.0">
+        <title>
+                Melody Hub - Explore Musical Instruments
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+            <div class="container">
+                <h1>Melody Hub</h1>
+                <nav>
+                   <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Historical Indian Instruments">Historical Indian Instruments</a></li>
+                    <li><a href="#Artists">Artists</a></li>
+                    <li><a href="#History">History</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                   </ul>
+                </nav>
+            </div>
+        <section id="home" class="hero">
+            <div class="overlay"></div>
+            <div class="hero-content">
+                <h2>Discover the World of Music</h2>
+                <p>Explore various musical instruments, their history, and significance in Indian classical music.</p>
+                <div class="btn">
+                <a href="#Historical Indian Instruments">Start Exploring</a>
+                </div>
+            </div>
+        </section>
+        <section id="historical-instruments">
+            <div class="container"></div>
+            <br>
+            <h2>Historical Famous Instruments of India</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="flute.jpg" alt="flute" width="250" height="300">
+                    <h3>Flute</h3>
+                    <p>A traditional Indian string instrument known for its deep and melodious sound, popular in Hindustani classical music.</p>
+                    <div class="link">
+                        <a target="_blank" href="https://en.wikipedia.org/wiki/Flute" class="btn">Learn History</a>
+                    </div>
+                </div>
+            <div class="card">
+                <img src="tabla.jpg" alt="Tabla" width="250" height="300">
+                <h3>Tabla</h3>
+                <p>A pair of hand drums used extensively in Indian classical and folk music, known for its intricate rhythms.</p>
+               <div class="link">
+                <a target="_blank" href="https://en.wikipedia.org/wiki/Tabla" class="btn">Learn History</a>
+               </div>
+            </div>
+            <div class="card">
+                <img src="veena.jpg" alt="Veena" width="250" height="300">
+                <h3>Veena</h3>
+                <p>One of the oldest Indian musical instruments, used in Carnatic and Hindustani music.</p>
+                <div class="link">
+                    <a target="_blank" href="https://en.wikipedia.org/wiki/Veena" class="btn">Learn History</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="sarangi.jpg" alt="Sarangi" width="250" height="300">
+                <h3>Sarangi</h3>
+                <p>A bowed string instrument known for its expressive and haunting sound, often used in Indian classical and folk music.</p>
+               <div class="link">
+                <a target="_blank" href="https://en.wikipedia.org/wiki/Sarangi" class="btn">Learn History</a>
+            </div>
+            </div>
+            </div>
+        </section>
+        <section id="artists" class="content">
+            <div class="container">
+                <h2>Featured Artists</h2>
+                <p>Learn about famous Indian musicians and their journey in the music industry.</p>
+            </div>
+        </section>
+        
+        <section id="contact" class="content">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p class="contact1">Have questions? We'd love to hear from you. Feel free to reach out and share your thoughts about Indian classical music.</p>
+                <div class="contact-details">
+                    <p><strong class="email">Email:</strong> </p>
+                    <p class="Phone"><strong>Phone:</strong> +91 90540 92970</p>
+                    <p class="Phone"><strong>Address:</strong> Parul University, Vadodara, India </p>
+                </div>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <div class="submit" ><button type="submit" class="btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="footer">
+                <p>&copy; 2025 Melody Hub. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
